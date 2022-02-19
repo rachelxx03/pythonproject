@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   
+    background-color: white;
+    padding: 30px 50px ;   
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.jar{
+    display: inline-block;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    float:left;
+    padding: 0;
+}
+nav{
+
+        display: flex;
+        justify-content: center;
+    
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 7px 18px 7px 18px;
+    position: relative;
+}
+nav a{
+    justify-content: center;
+    opacity: 60%;
+    color: #32343a;
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    height: 20px;
+    text-decoration: none; 
+}
+nav a:hover{
+    display: flex;
+    flex-grow: 1;
+    opacity: 90%;
+    color:#1a1a1c;
+    transition-duration:200ms ;
+}
+.menu{
+    flex-grow: 1;
+    
+    
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    align-items: center;
+}
+header button{
+    align-items: center;
+    flex-shrink: 1;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    padding: 12px 25px 12px 25px;
+    background-color: #1a1b1f;
+    color: white;
+   
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    border: none;
+    height:44px;
+    size:148.67px  
+}
+section{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+header button:hover{
+    background-color: #32343a;
+    background-color: 400ms;
+    opacity: 400ms;
+    color: 400ms;
+}
+.introheader{
+    height: 620px;
+    background-image: url(web.jpg);
+    margin-right: -32px;
+    margin-bottom: 100px;
+    margin-left: -31px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    background-position: 50% 50%, 0px 0px;
+    background-size: auto, cover;
+}
+
+#mainti{ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 80px;
+  
+}
+#liin{
+    font-size: 20px;
+    line-height: 34px;
+   
+    margin-bottom: 10px;
+}
+.introtext{
+    margin-bottom: 35px;
+}
+.introheader button{
+    
+   
+  
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 16px 35px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    border: none; 
+    background-color: #fff;
+    color: #000;
+   
+}
+.itrocontent{
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white ;
+     
+}
+.itrocontent{
+ 
+    width: 70%;
+    max-width: 1140px;
+    text-align: center;   
+   
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+}
+.introheader{
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+}
